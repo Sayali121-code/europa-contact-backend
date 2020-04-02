@@ -2,7 +2,6 @@ import { Injectable } from '@nestjs/common';
 import { Repository } from 'typeorm';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Contact } from '../contact.entity';
-import { UpdateResult, DeleteResult } from 'typeorm';
 
 @Injectable()
 export class ContactsService {
